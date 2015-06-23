@@ -73,5 +73,7 @@ function jhdup_perform_deactivation_of_current_user()
     
     $wpdb->update($wpdb->users, $new_data, array('ID' => $current_user->ID));
     
+    $wpdb->update($wpdb->posts, array('post_status' => 'draft'), array('post_author' => $current_user->ID));
+    
     wp_logout();
 }

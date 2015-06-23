@@ -1,7 +1,7 @@
 <?php
 /**
 * Plugin Name: Deactivate user plugin
-* Plugin URI: http://jordanhall.co.uk/
+* Plugin URI: https://github.com/rapidwebltd/deactivate-user-plugin/
 * Description: Allows a user to deactive their own user account from within the WordPress login area, or via the shortcode 
 * Version: 1.0
 * Author: Jordan Hall
